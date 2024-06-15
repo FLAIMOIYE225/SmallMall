@@ -544,6 +544,8 @@ small{
     width: 28px;
 
     margin-left: 20px;
+
+    display : none;
 }
 
 /* ------------------ media query for menu --------------------------- */
