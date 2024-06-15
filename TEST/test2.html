@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+
+            .container{
+
+                display: flex;
+
+                flex-basis: 0;
+
+                background-color: red;
+            }
+
+            .item1{
+
+                background-color: blue;
+
+                height: 500px;
+
+                width : 50%;
+
+                flex-grow : 15px;
+            
+            }
+
+            .item2{
+
+                background-color: aqua;
+
+                width : 50%;
+
+                text-align: center;
+
+                flex-shrink: 0;
+            }
+
+            #center{
+
+                position:fixed;
+
+                background-color: blueviolet;
+
+                top : 20%;
+
+                right: 40%;
+
+                width: 200px;
+
+                text-align: center;
+            }
+
+
+        </style>
+        
+    </head>
+
+
+    <body>
+
+        <div class="container">
+
+            <div class="item1"><div id="center">item1</div></div>
+            <div class="item2">item2</div>
+
+        </div>
+        
+    </body>
+
+</html>
